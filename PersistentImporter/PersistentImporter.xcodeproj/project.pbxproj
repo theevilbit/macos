@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		416CB73D237058A5006F6788 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CB73C237058A5006F6788 /* AppDelegate.m */; };
+		416CB740237058A5006F6788 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CB73F237058A5006F6788 /* Document.m */; };
+		416CB743237058A5006F6788 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 416CB741237058A5006F6788 /* Document.xib */; };
+		416CB745237058A6006F6788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416CB744237058A6006F6788 /* Assets.xcassets */; };
+		416CB748237058A6006F6788 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 416CB746237058A6006F6788 /* MainMenu.xib */; };
+		416CB74B237058A6006F6788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CB74A237058A6006F6788 /* main.m */; };
+		416CB751237058B8006F6788 /* Persist.mdimporter in CopyFiles */ = {isa = PBXBuildFile; fileRef = 416CB716237057ED006F6788 /* Persist.mdimporter */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		417AAD0B2370546200D6DA1D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417AAD0A2370546200D6DA1D /* CoreFoundation.framework */; };
+		41B94D83237056EC005E775A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B692E79A1AA5967C00BEBA6B /* main.c */; };
+		41B94D84237056F5005E775A /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B692E79C1AA5967C00BEBA6B /* GetMetadataForFile.m */; };
+		41B94D8523705715005E775A /* schema.xml in Resources */ = {isa = PBXBuildFile; fileRef = B673C1961AA5D914007A316F /* schema.xml */; };
+		B6C5ADFB1ACA6F2A006FCF41 /* schema.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6C5ADFD1ACA6F2A006FCF41 /* schema.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		416CB750237058AD006F6788 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/Spotlight;
+			dstSubfolderSpec = 1;
+			files = (
+				416CB751237058B8006F6788 /* Persist.mdimporter in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		416CB716237057ED006F6788 /* Persist.mdimporter */ = {isa = PBXFileReference; explicitFileType = "wrapper.spotlight-importer"; includeInIndex = 0; path = Persist.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		416CB739237058A5006F6788 /* Spotlight Persistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spotlight Persistence.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		416CB73B237058A5006F6788 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		416CB73C237058A5006F6788 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		416CB73E237058A5006F6788 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		416CB73F237058A5006F6788 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		416CB742237058A5006F6788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		416CB744237058A6006F6788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		416CB747237058A6006F6788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		416CB749237058A6006F6788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		416CB74A237058A6006F6788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		416CB74C237058A6006F6788 /* Spotlight_Persistence.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Spotlight_Persistence.entitlements; sourceTree = "<group>"; };
+		417AAD0A2370546200D6DA1D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B673C1961AA5D914007A316F /* schema.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schema.xml; sourceTree = "<group>"; };
+		B692E7991AA5967C00BEBA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B692E79A1AA5967C00BEBA6B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B692E79C1AA5967C00BEBA6B /* GetMetadataForFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetMetadataForFile.m; sourceTree = "<group>"; };
+		B6C5ADFC1ACA6F2A006FCF41 /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/schema.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		416CB736237058A5006F6788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B692E7931AA5967B00BEBA6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417AAD0B2370546200D6DA1D /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		416CB73A237058A5006F6788 /* Spotlight Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				416CB73B237058A5006F6788 /* AppDelegate.h */,
+				416CB73C237058A5006F6788 /* AppDelegate.m */,
+				416CB73E237058A5006F6788 /* Document.h */,
+				416CB73F237058A5006F6788 /* Document.m */,
+				416CB741237058A5006F6788 /* Document.xib */,
+				416CB744237058A6006F6788 /* Assets.xcassets */,
+				416CB746237058A6006F6788 /* MainMenu.xib */,
+				416CB749237058A6006F6788 /* Info.plist */,
+				416CB74A237058A6006F6788 /* main.m */,
+				416CB74C237058A6006F6788 /* Spotlight_Persistence.entitlements */,
+			);
+			path = "Spotlight Persistence";
+			sourceTree = "<group>";
+		};
+		41A54AB323701E65008CD5FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				417AAD0A2370546200D6DA1D /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B692E71A1AA5791500BEBA6B = {
+			isa = PBXGroup;
+			children = (
+				B692E7971AA5967C00BEBA6B /* Spotlight Importer */,
+				416CB73A237058A5006F6788 /* Spotlight Persistence */,
+				41A54AB323701E65008CD5FB /* Frameworks */,
+				416CB716237057ED006F6788 /* Persist.mdimporter */,
+				416CB739237058A5006F6788 /* Spotlight Persistence.app */,
+			);
+			sourceTree = "<group>";
+		};
+		B692E7971AA5967C00BEBA6B /* Spotlight Importer */ = {
+			isa = PBXGroup;
+			children = (
+				B692E79C1AA5967C00BEBA6B /* GetMetadataForFile.m */,
+				B692E7981AA5967C00BEBA6B /* Supporting Files */,
+			);
+			path = "Spotlight Importer";
+			sourceTree = "<group>";
+		};
+		B692E7981AA5967C00BEBA6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B692E79A1AA5967C00BEBA6B /* main.c */,
+				B673C1961AA5D914007A316F /* schema.xml */,
+				B6C5ADFD1ACA6F2A006FCF41 /* schema.strings */,
+				B692E7991AA5967C00BEBA6B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		416CB738237058A5006F6788 /* Spotlight Persistence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416CB74D237058A6006F6788 /* Build configuration list for PBXNativeTarget "Spotlight Persistence" */;
+			buildPhases = (
+				416CB735237058A5006F6788 /* Sources */,
+				416CB736237058A5006F6788 /* Frameworks */,
+				416CB737237058A5006F6788 /* Resources */,
+				416CB750237058AD006F6788 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spotlight Persistence";
+			productName = "Spotlight Persistence";
+			productReference = 416CB739237058A5006F6788 /* Spotlight Persistence.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B692E7951AA5967B00BEBA6B /* Spotlight Importer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B692E7A21AA5967C00BEBA6B /* Build configuration list for PBXNativeTarget "Spotlight Importer" */;
+			buildPhases = (
+				B692E7921AA5967B00BEBA6B /* Sources */,
+				B692E7931AA5967B00BEBA6B /* Frameworks */,
+				B692E7941AA5967B00BEBA6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spotlight Importer";
+			productName = "Spotlight Importer";
+			productReference = 416CB716237057ED006F6788 /* Persist.mdimporter */;
+			productType = "com.apple.product-type.spotlight-importer";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B692E71B1AA5791500BEBA6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastUpgradeCheck = 1120;
+				TargetAttributes = {
+					416CB738237058A5006F6788 = {
+						CreatedOnToolsVersion = 11.1;
+						DevelopmentTeam = 33YRLYRBYV;
+						ProvisioningStyle = Automatic;
+					};
+					B692E7951AA5967B00BEBA6B = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 33YRLYRBYV;
+					};
+				};
+			};
+			buildConfigurationList = B692E71E1AA5791500BEBA6B /* Build configuration list for PBXProject "PersistentImporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B692E71A1AA5791500BEBA6B;
+			productRefGroup = B692E71A1AA5791500BEBA6B;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B692E7951AA5967B00BEBA6B /* Spotlight Importer */,
+				416CB738237058A5006F6788 /* Spotlight Persistence */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		416CB737237058A5006F6788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416CB745237058A6006F6788 /* Assets.xcassets in Resources */,
+				416CB743237058A5006F6788 /* Document.xib in Resources */,
+				416CB748237058A6006F6788 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B692E7941AA5967B00BEBA6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B94D8523705715005E775A /* schema.xml in Resources */,
+				B6C5ADFB1ACA6F2A006FCF41 /* schema.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		416CB735237058A5006F6788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416CB740237058A5006F6788 /* Document.m in Sources */,
+				416CB74B237058A6006F6788 /* main.m in Sources */,
+				416CB73D237058A5006F6788 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B692E7921AA5967B00BEBA6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B94D84237056F5005E775A /* GetMetadataForFile.m in Sources */,
+				41B94D83237056EC005E775A /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		416CB741237058A5006F6788 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416CB742237058A5006F6788 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		416CB746237058A6006F6788 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416CB747237058A6006F6788 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		B6C5ADFD1ACA6F2A006FCF41 /* schema.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6C5ADFC1ACA6F2A006FCF41 /* en */,
+			);
+			name = schema.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		416CB74E237058A6006F6788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "Spotlight Persistence/Spotlight_Persistence.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 33YRLYRBYV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Spotlight Persistence/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.csaby.Spotlight-Persistence";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		416CB74F237058A6006F6788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "Spotlight Persistence/Spotlight_Persistence.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 33YRLYRBYV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "Spotlight Persistence/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.csaby.Spotlight-Persistence";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B692E71F1AA5791500BEBA6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B692E7201AA5791500BEBA6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B692E7A31AA5967C00BEBA6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33YRLYRBYV;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Spotlight Importer/Info.plist";
+				INSTALL_PATH = /Library/Spotlight;
+				LIBRARY_STYLE = BUNDLE;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.csaby.persist.mdimporter;
+				PRODUCT_NAME = Persist;
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		B692E7A41AA5967C00BEBA6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 33YRLYRBYV;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Spotlight Importer/Info.plist";
+				INSTALL_PATH = /Library/Spotlight;
+				LIBRARY_STYLE = BUNDLE;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.csaby.persist.mdimporter;
+				PRODUCT_NAME = Persist;
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416CB74D237058A6006F6788 /* Build configuration list for PBXNativeTarget "Spotlight Persistence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416CB74E237058A6006F6788 /* Debug */,
+				416CB74F237058A6006F6788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B692E71E1AA5791500BEBA6B /* Build configuration list for PBXProject "PersistentImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B692E71F1AA5791500BEBA6B /* Debug */,
+				B692E7201AA5791500BEBA6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B692E7A21AA5967C00BEBA6B /* Build configuration list for PBXNativeTarget "Spotlight Importer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B692E7A31AA5967C00BEBA6B /* Debug */,
+				B692E7A41AA5967C00BEBA6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B692E71B1AA5791500BEBA6B /* Project object */;
+}

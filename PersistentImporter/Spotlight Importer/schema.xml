@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema version="1.0" xmlns="http://www.apple.com/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.apple.com/metadata file:///System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Resources/MetadataSchema.xsd">
+
+  <!-- "attributes" element must exist in schema.xml file even if mdimporter doesn't support any custom attributes. if it doesn't exist, the metadata which are listed by "displayattrs" elements aren't displayed by Finder's "Get Info" panel (in OS X 10.10.2). -->
+  <attributes>
+    <attribute name="com_csaby_persist_mdimporter" multivalued="false" type="CFString"/>
+  </attributes>
+
+  <types>
+    <type name="org.idpf.epub-container">
+
+      <allattrs>
+        kMDItemTitle
+        kMDItemAuthors
+        kMDItemKeywords
+        kMDItemDescription
+        kMDItemHeadline
+        kMDItemPublishers
+        kMDItemOrganizations
+        kMDItemContributors
+        kMDItemIdentifier
+        kMDItemLanguages
+        kMDItemCoverage
+        kMDItemCopyright
+        kMDItemRights
+        kMDItemTextContent
+        kMDItemNumberOfPages
+        kMDItemContentCreationDate
+        kMDItemContentModificationDate
+        com_csaby_persist_mdimporter
+      </allattrs>
+
+      <displayattrs>
+        kMDItemTitle
+        kMDItemAuthors
+        kMDItemContributors
+        kMDItemPublishers
+        kMDItemCopyright
+        kMDItemLanguages
+        kMDItemNumberOfPages
+        kMDItemKeywords
+        com_csaby_persist_mdimporter
+        kMDItemIdentifier
+        kMDItemContentCreationDate
+        kMDItemContentModificationDate
+        kMDItemDescription
+      </displayattrs>
+
+    </type>
+  </types>
+</schema>
+
