@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41025A6A260C8640002C2EFE /* worm.png in Resources */ = {isa = PBXBuildFile; fileRef = 41025A69260C8640002C2EFE /* worm.png */; };
+		D0D8769C13FD82320084CAAF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D8769B13FD82320084CAAF /* Cocoa.framework */; };
+		D0D8769E13FD82320084CAAF /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0D8769D13FD82320084CAAF /* PreferencePanes.framework */; };
+		D0D876A813FD82320084CAAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0D876A613FD82320084CAAF /* InfoPlist.strings */; };
+		D0D876AC13FD82320084CAAF /* PrefsPane.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D876AB13FD82320084CAAF /* PrefsPane.m */; };
+		D0D876B113FD82320084CAAF /* PersistentWorm.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D876AF13FD82320084CAAF /* PersistentWorm.xib */; };
+		D0D876B813FD82900084CAAF /* moof.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D876B713FD82900084CAAF /* moof.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41025A69260C8640002C2EFE /* worm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worm.png; sourceTree = "<group>"; };
+		41025A6D260C88C6002C2EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PersistentWorm.xib; sourceTree = "<group>"; };
+		D0D8769813FD82320084CAAF /* PersistentWorm.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersistentWorm.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D8769B13FD82320084CAAF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D0D8769D13FD82320084CAAF /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		D0D876A013FD82320084CAAF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D0D876A113FD82320084CAAF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D0D876A213FD82320084CAAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0D876A513FD82320084CAAF /* PersistentWorm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PersistentWorm-Info.plist"; sourceTree = "<group>"; };
+		D0D876A713FD82320084CAAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0D876A913FD82320084CAAF /* PersistentWorm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PersistentWorm-Prefix.pch"; sourceTree = "<group>"; };
+		D0D876AA13FD82320084CAAF /* PrefsPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefsPane.h; sourceTree = "<group>"; };
+		D0D876AB13FD82320084CAAF /* PrefsPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrefsPane.m; sourceTree = "<group>"; };
+		D0D876B713FD82900084CAAF /* moof.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moof.png; sourceTree = "<group>"; };
+		D0D876BD13FD8A860084CAAF /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0D8769313FD82320084CAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D8769C13FD82320084CAAF /* Cocoa.framework in Frameworks */,
+				D0D8769E13FD82320084CAAF /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0D8768B13FD82320084CAAF = {
+			isa = PBXGroup;
+			children = (
+				D0D876BD13FD8A860084CAAF /* ReadMe.txt */,
+				D0D876A313FD82320084CAAF /* PrefsPane */,
+				D0D8769A13FD82320084CAAF /* Frameworks */,
+				D0D8769913FD82320084CAAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0D8769913FD82320084CAAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0D8769813FD82320084CAAF /* PersistentWorm.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0D8769A13FD82320084CAAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0D8769B13FD82320084CAAF /* Cocoa.framework */,
+				D0D8769D13FD82320084CAAF /* PreferencePanes.framework */,
+				D0D8769F13FD82320084CAAF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0D8769F13FD82320084CAAF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0D876A013FD82320084CAAF /* AppKit.framework */,
+				D0D876A113FD82320084CAAF /* CoreData.framework */,
+				D0D876A213FD82320084CAAF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D0D876A313FD82320084CAAF /* PrefsPane */ = {
+			isa = PBXGroup;
+			children = (
+				D0D876AA13FD82320084CAAF /* PrefsPane.h */,
+				D0D876AB13FD82320084CAAF /* PrefsPane.m */,
+				D0D876AF13FD82320084CAAF /* PersistentWorm.xib */,
+				D0D876A413FD82320084CAAF /* Supporting Files */,
+			);
+			path = PrefsPane;
+			sourceTree = "<group>";
+		};
+		D0D876A413FD82320084CAAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0D876B713FD82900084CAAF /* moof.png */,
+				D0D876A513FD82320084CAAF /* PersistentWorm-Info.plist */,
+				41025A69260C8640002C2EFE /* worm.png */,
+				D0D876A613FD82320084CAAF /* InfoPlist.strings */,
+				D0D876A913FD82320084CAAF /* PersistentWorm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D0D8769413FD82320084CAAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D0D8769713FD82320084CAAF /* PersistentWorm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D876B413FD82320084CAAF /* Build configuration list for PBXNativeTarget "PersistentWorm" */;
+			buildPhases = (
+				D0D8769213FD82320084CAAF /* Sources */,
+				D0D8769313FD82320084CAAF /* Frameworks */,
+				D0D8769413FD82320084CAAF /* Headers */,
+				D0D8769513FD82320084CAAF /* Resources */,
+				D0D8769613FD82320084CAAF /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersistentWorm;
+			productName = PrefsPane;
+			productReference = D0D8769813FD82320084CAAF /* PersistentWorm.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0D8768D13FD82320084CAAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Apple, Inc";
+			};
+			buildConfigurationList = D0D8769013FD82320084CAAF /* Build configuration list for PBXProject "PersistentWorm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0D8768B13FD82320084CAAF;
+			productRefGroup = D0D8769913FD82320084CAAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0D8769713FD82320084CAAF /* PersistentWorm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0D8769513FD82320084CAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41025A6A260C8640002C2EFE /* worm.png in Resources */,
+				D0D876A813FD82320084CAAF /* InfoPlist.strings in Resources */,
+				D0D876B113FD82320084CAAF /* PersistentWorm.xib in Resources */,
+				D0D876B813FD82900084CAAF /* moof.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		D0D8769613FD82320084CAAF /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0D8769213FD82320084CAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D876AC13FD82320084CAAF /* PrefsPane.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0D876A613FD82320084CAAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D876A713FD82320084CAAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0D876AF13FD82320084CAAF /* PersistentWorm.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41025A6D260C88C6002C2EFE /* Base */,
+			);
+			name = PersistentWorm.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0D876B213FD82320084CAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0D876B313FD82320084CAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0D876B513FD82320084CAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrefsPane/PersistentWorm-Prefix.pch";
+				INFOPLIST_FILE = "PrefsPane/PersistentWorm-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		D0D876B613FD82320084CAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PrefsPane/PersistentWorm-Prefix.pch";
+				INFOPLIST_FILE = "PrefsPane/PersistentWorm-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0D8769013FD82320084CAAF /* Build configuration list for PBXProject "PersistentWorm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D876B213FD82320084CAAF /* Debug */,
+				D0D876B313FD82320084CAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D876B413FD82320084CAAF /* Build configuration list for PBXNativeTarget "PersistentWorm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D876B513FD82320084CAAF /* Debug */,
+				D0D876B613FD82320084CAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0D8768D13FD82320084CAAF /* Project object */;
+}
